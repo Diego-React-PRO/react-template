@@ -2,9 +2,10 @@ import ProductImage from './ProductImage';
 import ProductTitle from './ProductTitle';
 import ProductButtons from './ProductButtons';
 import ProductCardHOC from './ProductCard';
+import { ProductCardHOCProps } from '../interfaces';
 
 const useComponents = () => {
-  const ProductCard = Object.assign(ProductCardHOC, {
+  const ProductCard: ProductCardHOCProps = Object.assign(ProductCardHOC, {
     Title: ProductTitle,
     Image: ProductImage,
     Buttons: ProductButtons
