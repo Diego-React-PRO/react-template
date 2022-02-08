@@ -69,7 +69,7 @@ export const FormikAbstract = () => {
           </Form>
         )}
       </Formik>
-    </div >
+    </div>
   )
 }
 
